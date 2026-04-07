@@ -13,3 +13,10 @@ class UserUpdate(BaseModel):
     password: str|None=None
     full_name: str|None=None
     phone:str|None=None
+
+class UserDelete(BaseModel):
+    email: str
+    password: str
+    full_name: str|None=None
+    phone:str|None=None
+    role:str="user"

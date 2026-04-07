@@ -5,24 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cbf8c35-5851-4a18-b1ee-460e200194ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BackendAviaJd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/trip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/admins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/admin_schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/admin_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/trips.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/trip.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/trip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/booking_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/trip_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3BnZQqU1LOFifly9XD5leTmaBlg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,9 +46,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.auth.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">

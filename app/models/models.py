@@ -23,3 +23,11 @@ class Booking(Base):
     trip_id:Mapped[int]=mapped_column(ForeignKey('trips.id'))
     status:Mapped[str]=mapped_column(String,default='created')
     is_paid:Mapped[bool]=mapped_column(Boolean,default=False)
+
+class Admin(Base):
+    __tablename__ = 'admins'
+    id:Mapped[int]=mapped_column(primary_key=True)
+    email_ad:Mapped[str]=mapped_column(String,unique=True)
+    password_ad:Mapped[str]=mapped_column(String)
+    full_name_ad:Mapped[str]=mapped_column(String,nullable=True)
+    phone_ad:Mapped[str]=mapped_column(String,nullable=True)
